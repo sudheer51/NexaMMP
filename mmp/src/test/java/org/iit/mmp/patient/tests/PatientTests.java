@@ -14,7 +14,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+//Adding comment for patient tests
 public class PatientTests {
 	 WebDriver driver;
 	 Random rnd = new Random();
