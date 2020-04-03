@@ -13,6 +13,7 @@ public class AdminLogin {
 	WebElement unameTxtField;
     
     WebDriver driver;
+    //Constructor for Admin Login
 	public AdminLogin(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
